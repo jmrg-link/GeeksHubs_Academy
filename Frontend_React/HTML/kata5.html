@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport"               content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"               content="HTML , Geeks, GeeksHubs Online" >
+    <meta name="author"                 content="JMRG, Student Geek Alumn">
+    <meta name="description"            content="BTC React - HTML5">
+    <meta name="language"               content="ES">
+    <meta name="robots"                 content="noindex" />
+    <meta name="googlebot"              content="noindex">
+    <meta name="googlebot-news"         content="nosnippet">
+    <meta name="owner"                  content="JMRG">
+    <meta name="Classification"         content="Student">
+    <meta name="distribution"           content="Local, GeeksAcademy">
+    <title>Kata 5 - Forms </title>
+    
+</head>
+<body>
+    
+    <form action="/signup" method="post">
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="studentGH@academy.com"><br><br>
+        <label for="email">Email:</label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <textarea name="message" rows="10" cols="50">Introduce tu msg:</textarea>
+        <p>Selecciona tu nivel:</p>
+        <input type="radio" id="junior" name="nivel" value="junior">
+        <label for="junior">Junior</label><br>
+        <input type="radio" id="semi-senior" name="nivel" value="semisenior">
+        <label for="semi-senior">Semi-Senior</label><br>
+        <input type="radio" id="senior" name="nivel" value="senior">
+        <label for="senior">Senior</label><br><br>
+        <button type=”button” type="submit" value="submit">Enviar</button>
+    </form>
+    <hr>
+    <h3>RETO:</h3>
+    <hr>
+    <p>Crear input tipo password para almacenar contraseñas y utilizar la propiedad disabled en algun input , ademas de utilizar required en email y password</p>
+    <form action="/signup" method="post">
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="fapellidos">Apellidos:</label>
+        <input type="text" id="fapellidos" name="fapellidos"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="studentGH@academy.com"><br><br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="password" required name="password" placeholder="****"><br><br>
+        <textarea name="message" rows="10" cols="50">Introduce tu msg:</textarea>
+        <p>Selecciona tu nivel:</p>
+        <input type="checkbox" id="btc-backend" name="nivel" value="btc-backend">
+        <label for="btc-backend">BTC-Backend</label><br>
+        <input type="checkbox" id="btc-react" name="nivel" value="btc-react">
+        <label for="btc-react">BTC - React</label><br>
+        <input type="checkbox" id="btc-agile" name="nivel" value="btc-agile">
+        <label for="btc-agile">BTC-Agile</label><br><br>
+        <button type=”button” type="submit" value="submit">Enviar </button><br><br>
+        <button type=”button” disabled type="submit" value="submit">Enviar Disabled</button>
+    </form>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
