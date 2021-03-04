@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport"               content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"               content="HTML , Geeks, GeeksHubs Online" >
+    <meta name="author"                 content="JMRG, Student Geek Alumn">
+    <meta name="description"            content="BTC React - HTML5">
+    <meta name="language"               content="ES">
+    <meta name="robots"                 content="noindex" />
+    <meta name="googlebot"              content="noindex">
+    <meta name="googlebot-news"         content="nosnippet">
+    <meta name="owner"                  content="JMRG">
+    <meta name="Classification"         content="Student">
+    <meta name="distribution"           content="Local, GeeksAcademy">
+    <title>Kata 6 - HTML5 </title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a name="ancla">Geekshubs - Academy</a>
+            <ul>
+                <a href="#ancla"    name="ancla">Inicio</a>
+                <a href="#kata5"    name="kata5">kata 5</a>
+                <a href="#kata4"    name="kata4">Kata 4</a>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <a name="kata5">Formularios HTML5</a><br><br>
+            <form action="/signup" method="post">
+                <label for="fname">Nombre:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="fapellidos">Apellidos:</label>
+                <input type="text" id="fapellidos" name="fapellidos"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="studentGH@academy.com"><br><br>
+                <label for="pwd">Password:</label>
+                <input type="password" id="password" required name="password" placeholder="****"><br><br>
+                <textarea name="message" rows="10" cols="50">Introduce tu msg:</textarea>
+                <p>Selecciona tu nivel:</p>
+                <input type="checkbox" id="btc-backend" name="nivel" value="btc-backend">
+                <label for="btc-backend">BTC-Backend</label><br>
+                <input type="checkbox" id="btc-react" name="nivel" value="btc-react">
+                <label for="btc-react">BTC - React</label><br>
+                <input type="checkbox" id="btc-agile" name="nivel" value="btc-agile">
+                <label for="btc-agile">BTC-Agile</label><br><br>
+                <button type=”button” type="submit" value="submit">Enviar </button><br><br>
+                <button type=”button” disabled type="submit" value="submit">Enviar Disabled</button>
+            </form>
+        </article>
+        <article>
+            <a name="kata4">Tabla utilizada en KATA 4</a><br><br>
+            <table border="1">
+                <caption> Tabla Clasificatoria </caption>
+                <thead>
+                    <tr>
+                        <th colspan="1" rowspan="1">Equipos</th>    <!--Equipos-->
+                        <th colspan="1" rowspan="1">PT</th>         <!--Partidos Totales-->
+                        <th colspan="1" rowspan="1">PJ</th>         <!--Partidos Jugados-->
+                        <th colspan="1" rowspan="1">PG</th>         <!--Partidos Ganados-->
+                        <th colspan="1" rowspan="1">PE</th>         <!--Partidos Empatados-->
+                        <th colspan="1" rowspan="1">PP</th>         <!--Partidos Perdidos-->
+                        <th colspan="1" rowspan="1">GF</th>         <!--Goles Favor-->
+                        <th colspan="1" rowspan="1">GC</th>         <!--Goles contra-->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--Primera Posicion de Clasificacion-->
+                    <tr>
+                        <td>Atletico de Madrid</td>
+                        <td>58</td>
+                        <td>24</td>
+                        <td>18</td>
+                        <td>04</td>
+                        <td>02</td>
+                        <td>47</td>
+                        <td>16</td>
+                    </tr>
+                    <!--Fin Primera Posicion-->
+                    <!--Segunda Posicion de Clasificacion-->
+                    <tr>
+                        <td>Barcelona</td>
+                        <td>53</td>
+                        <td>25</td>
+                        <td>16</td>
+                        <td>05</td>
+                        <td>04</td>
+                        <td>55</td>
+                        <td>22</td>
+                    </tr>
+                    <!--Fin Segunda Posicion-->
+                    <!--Tercera Posicion de Clasificacion-->
+                    <tr>
+                        <td>Real Madrid</td>
+                        <td>53</td>
+                        <td>24</td>
+                        <td>15</td>
+                        <td>04</td>
+                        <td>02</td>
+                        <td>47</td>
+                        <td>16</td>
+                    </tr>
+                    <!--Fin Tercera Posicion-->
+                    <!--Cuarta Posicion de Clasificacion-->
+                    <tr>
+                        <td>Sevilla C.F.</td>
+                        <td>48</td>
+                        <td>24</td>
+                        <td>15</td>
+                        <td>03</td>
+                        <td>06</td>
+                        <td>34</td>
+                        <td>18</td>
+                    </tr>
+                    <!--Fin cuarta Posicion-->
+                    <!--Quinta Posicion de Clasificacion-->
+                    <tr>
+                        <td>Real Sociedad</td>
+                        <td>42</td>
+                        <td>25</td>
+                        <td>11</td>
+                        <td>09</td>
+                        <td>05</td>
+                        <td>42</td>
+                        <td>21</td>
+                    </tr>
+                    <!--Fin Quinta Posicion-->
+                </tbody>
+            </table>
+        </article>
+    </section>
+        <footer>
+            <p>Geekshubs Academy - FSD Online</p>
+        </footer>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
